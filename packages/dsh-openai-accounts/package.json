@@ -1,7 +1,8 @@
 {
   "name": "dsh-openai-accounts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DSH OpenAI 多账号管理插件:多账号 = 多组 ChatGPT 订阅 OAuth 凭据;切换账号 = 切换 DSH_CODEX_TOKEN;设置页管理 + 输入栏额度胶囊。",
+  "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij4KPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzEwYTM3ZiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzBiNmU1NiIvPgo8L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNCIgZmlsbD0idXJsKCNnKSIvPgo8Y2lyY2xlIGN4PSI0NiIgY3k9IjUyIiByPSIxNCIgZmlsbD0iI2ZmZiIgb3BhY2l0eT0iMC45NSIvPgo8Y2lyY2xlIGN4PSI4MiIgY3k9IjUyIiByPSIxNCIgZmlsbD0iI2ZmZiIgb3BhY2l0eT0iMC41NSIvPgo8cGF0aCBkPSJNNDYgNzhjLTgtNi0xNi02LTE2IDh2NmgzMnYtNmMwLTE0LTgtMTQtMTYtOHoiIGZpbGw9IiNmZmYiIG9wYWNpdHk9IjAuOTUiLz4KPHBhdGggZD0iTTgyIDc4Yy04LTYtMTYtNi0xNiA4djZoMzJ2LTZjMC0xNC04LTE0LTE2LTh6IiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIwLjU1Ii8+Cjwvc3ZnPg==",
   "author": "mccray <mccray.xie@gmail.com>",
   "license": "MIT",
   "repository": {

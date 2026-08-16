@@ -12,11 +12,11 @@ DSH(DeepSeek Harness)的 ChatGPT **订阅账号**(Plus / Pro 等,含 Codex)多�
 - **npm**: https://www.npmjs.com/package/dsh-openai-accounts
 - **源码**: https://github.com/mccray-s/dsh-plugins/tree/main/packages/dsh-openai-accounts
 
-![整体演示](assets/example.gif)
+![整体演示](https://cdn.jsdelivr.net/npm/dsh-openai-accounts/assets/example.gif)
 
 | 对话额度胶囊与快捷切换 | 设置页账号管理 |
 | --- | --- |
-| ![对话截图](assets/chat-image.png) | ![设置截图](assets/setting-image.png) |
+| ![对话截图](https://cdn.jsdelivr.net/npm/dsh-openai-accounts/assets/chat-image.png) | ![设置截图](https://cdn.jsdelivr.net/npm/dsh-openai-accounts/assets/setting-image.png) |
 
 ## 功能特性
 
