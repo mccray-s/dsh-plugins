@@ -1,0 +1,12 @@
+# dsh-openai-accounts bundle layer
+#
+# 插件行:name 是包名(由 profile 的 node_modules 解析,软链或 dsh plugin add 安装)。
+# 行配置可覆盖默认凭据引用(可选):
+#   config:
+#     activeRef: DSH_CODEX_TOKEN            # access token 切换目标(默认)
+#     indexRef: DSH_OPENAI_ACCOUNTS_INDEX   # 账号索引条目(默认)
+#     keyPrefix: DSH_OPENAI_KEY_            # 每账号凭据条目前缀(默认)
+#     routeProvider: openai-codex           # 消费 token 的 llm 路由(默认)
+- insert:
+    - id: openai-accounts
+      name: dsh-openai-accounts

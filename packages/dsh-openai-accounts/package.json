@@ -1,0 +1,58 @@
+{
+  "name": "dsh-openai-accounts",
+  "version": "0.1.0",
+  "description": "DSH OpenAI 多账号管理插件:多账号 = 多组 ChatGPT 订阅 OAuth 凭据;切换账号 = 切换 DSH_CODEX_TOKEN;设置页管理 + 输入栏额度胶囊。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "openai",
+    "chatgpt",
+    "codex",
+    "multi-account"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./typert": "./lib/typert.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "src",
+    "build.mjs",
+    "cordis.patch.yml",
+    "README.md",
+    "assets"
+  ],
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node --check lib/index.js && node --check lib/oauth.js && node --check lib/typert.js && node --check lib/descriptors.js && node --check lib/client.js"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-typert-protocol": "^0.1.0-rc.6",
+    "@types/react": "^18.3.31",
+    "esbuild": "^0.28.1",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@earendil-works/pi-ai": "^0.82.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-typert-protocol": "^0.1.0-rc.6"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "license": "MIT"
+}

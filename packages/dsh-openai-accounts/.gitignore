@@ -1,0 +1,10 @@
+node_modules/
+build/
+lib/
+.npm-cache/
+
+# macOS
+.DS_Store
+
+# 开发监视脚本(本机便利,不随仓库分发)
+watch.mjs
