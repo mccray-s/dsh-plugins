@@ -9,7 +9,7 @@ DSH(DeepSeek Harness)插件集合 — pnpm workspace monorepo。
 
 | 包 | 说明 |
 | --- | --- |
-| [dsh-openai-accounts](packages/dsh-openai-accounts/README.md) | ChatGPT 订阅多账号管理插件(登录 / 切换 / 额度) |
+| [dsh-openai-accounts](packages/dsh-openai-accounts/README.md) | ChatGPT 订阅多账号管理插件(登录 / 切换 / 额度)— [npm](https://www.npmjs.com/package/dsh-openai-accounts) |
 
 ## 结构
 
@@ -31,11 +31,14 @@ pnpm -r check               # 语法检查全部包
 
 ## 发布
 
-每个包独立发布到 npm:
+每个包独立发布到 npm(已发布:[dsh-openai-accounts](https://www.npmjs.com/package/dsh-openai-accounts)):
 
 ```sh
 cd packages/dsh-openai-accounts
 npm publish
 ```
 
-仓库 GitHub Topics 建议添加:`dsh-plugin`、`deepseek-harness`、`dsh`。
+> 提示:本机 npm 全局缓存有 root 权限问题,所有 npm 命令建议带
+> `--cache "$PWD/.npm-cache"`(包内已建本地缓存目录)。
+
+仓库 GitHub Topics:`dsh-plugin`、`deepseek-harness`、`dsh`。

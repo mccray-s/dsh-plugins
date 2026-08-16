@@ -3,7 +3,14 @@
 > ⚠️ **个人自用项目**:本插件按作者个人使用场景开发与维护,非官方项目,不承诺
 > 持续维护、接口稳定或向后兼容。使用前请自行阅读源码,风险自负。
 
+[![npm version](https://img.shields.io/npm/v/dsh-openai-accounts)](https://www.npmjs.com/package/dsh-openai-accounts)
+[![npm downloads](https://img.shields.io/npm/dw/dsh-openai-accounts)](https://www.npmjs.com/package/dsh-openai-accounts)
+[![license](https://img.shields.io/npm/l/dsh-openai-accounts)](LICENSE)
+
 DSH(DeepSeek Harness)的 ChatGPT **订阅账号**(Plus / Pro 等,含 Codex)多账号管理插件。
+
+- **npm**: https://www.npmjs.com/package/dsh-openai-accounts
+- **源码**: https://github.com/mccray-s/dsh-plugins/tree/main/packages/dsh-openai-accounts
 
 ![整体演示](assets/example.gif)
 
@@ -26,8 +33,8 @@ DSH(DeepSeek Harness)的 ChatGPT **订阅账号**(Plus / Pro 等,含 Codex)多�
 
 ## 安装
 
-发布到 npm 后,用 `dsh plugin` 安装(它转发 pnpm 到 profile 目录,并自动把声明了
-`dsh.bundle` 的依赖追加进 `dsh.profile.bundles`):
+已发布到 npm(https://www.npmjs.com/package/dsh-openai-accounts),用 `dsh plugin` 安装
+(它转发 pnpm 到 profile 目录,并自动把声明了 `dsh.bundle` 的依赖追加进 `dsh.profile.bundles`):
 
 ```sh
 # pnpm 8 的 workspace-root 保护需要 -w(--workspace-root);
@@ -35,12 +42,12 @@ DSH(DeepSeek Harness)的 ChatGPT **订阅账号**(Plus / Pro 等,含 Codex)多�
 dsh plugin --profile web add -w dsh-openai-accounts
 ```
 
-也支持从本地目录或 Git 安装:
+也支持从本地目录或 Git 安装(开发调试用):
 
 ```sh
 dsh plugin --profile web add -w ./dsh-openai-accounts
 # 或
-dsh plugin --profile web add -w github:you/dsh-openai-accounts
+dsh plugin --profile web add -w github:mccray-s/dsh-plugins
 ```
 
 安装后重启 dsh 即可——无需手动软链、无需 `--patch`(插件的 `cordis.patch.yml`
