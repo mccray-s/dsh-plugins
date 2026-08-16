@@ -2,6 +2,16 @@
   "name": "dsh-openai-accounts",
   "version": "0.1.0",
   "description": "DSH OpenAI 多账号管理插件:多账号 = 多组 ChatGPT 订阅 OAuth 凭据;切换账号 = 切换 DSH_CODEX_TOKEN;设置页管理 + 输入栏额度胶囊。",
+  "author": "mccray <mccray.xie@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mccray-s/dsh-plugins.git"
+  },
+  "homepage": "https://github.com/mccray-s/dsh-plugins/tree/main/packages/dsh-openai-accounts#readme",
+  "bugs": {
+    "url": "https://github.com/mccray-s/dsh-plugins/issues"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -53,6 +63,5 @@
       "platform": "web",
       "inject": []
     }
-  },
-  "license": "MIT"
+  }
 }
